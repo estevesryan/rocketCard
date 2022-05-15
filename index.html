@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- scrips -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <title>RocketCard</title>
+</head>
+<body>
+    <main>
+
+        <!-- card -->
+        <section id="section-card">
+
+            <p>Compartilhe seu #rocketcard</p>
+
+            <div id="card-bcg">
+
+                <div id="card">
+                    <header>
+                        <div id="logo">
+                            <img src="assets/logo.svg" alt="logo rocketseat">
+                        </div>
+                        <div id="Name"></div>
+                    </header>
+
+                    <section id="contents">
+                        <img src="" alt="profile photo" id="profilePhoto">
+
+                        <div id="profile-status">
+                            <ul>
+                                <!-- followers -->
+                                <li>
+                                    <img src="assets/followers.svg" alt="followers icon">
+                                    <p id="followers">716 Seguidores</p>
+                                </li>
+
+                                <!-- following -->
+                                <li>
+                                    <img src="assets/following.svg" alt="following icon">
+                                    <p id="following">193 Seguindo</p>
+                                </li>
+
+                                <!-- repos -->
+                                <li>
+                                    <img src="assets/repository.svg" alt="repos icon">
+                                    <p id="repos">38 Repositórios</p>
+                                </li>
+
+                                <!-- company -->
+                                <li>
+                                    <img src="assets/company.svg" alt="company icon">
+                                    <p id="company">@Rocketseat</p>
+                                </li>
+
+                                <!-- location -->
+                                <li>
+                                    <img src="assets/location.svg" alt="location icon">
+                                    <p id="localizacao"></p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </section>
+
+                    <footer>
+                        <img src="assets/logo.svg" alt="logo">
+                        <h4>ROCKETCARD</h4>
+                    </footer>
+                </div>     
+            </div>
+
+        </section>
+
+        <!-- button -->
+        <section id="section-button">
+            <p>Customizar Rocketcard</p>
+            <button>Gerar background</button>
+        </section>
+    </main>
+</body>
+</html>
